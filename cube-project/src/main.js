@@ -2,6 +2,12 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
+import AFRAME from "aframe";
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "/ChanelXPulpFiction/",
+});
 
 document.querySelector('#app').innerHTML = `
   <div>
